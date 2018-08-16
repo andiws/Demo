@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8742ce1c-3e0c-46b2-9367-f35b740eba85" name="Default Changelist" comment="" />
+    <list default="true" id="8742ce1c-3e0c-46b2-9367-f35b740eba85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OddsAndEvens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edx.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,39 +19,48 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1580" />
+          <entry key="JAVA" value="2510" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1580" />
+          <entry key="java" value="2510" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="166">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OddsAndEvens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -61,6 +74,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import java\.util\.Scanner\;\n\npublic class OddsAndEvens \{\n    public static void main \(String \[\] args\)\n    \{\n    System\.out\.println\(\&quot;Let\’s play a game called \“Odds and Evens\”\&quot;\)\;\n\n    System\.out\.println\(\&quot;What is your name\?\&quot;\)\;\n\n    Scanner input \= new Scanner\(System\.in\)\;\n\n    String answer \= input\.next\(\)\;\n\n    System\.out\.println\(\&quot;Hi \&quot; \+ answer \+ \&quot;\, which do you choose\? \(O\)dds or \(E\)vens\?\&quot;\)\;\n\n    Scanner answerChoiceInput \= new Scanner\(System\.in\)\;\n\n    String answerChoice \= answerChoiceInput\.next\(\)\;\n\n    if \(answerChoice\.equalsIgnoreCase\(\&quot;e\&quot;\)\) \{\n        String xyz \= \&quot;Odd\&quot;\;\n\n        System\.out\.println\(answer \+ \&quot; has picked \&quot; \+ answerChoice \+\n                \&quot;\! The computer will be \&quot; \+ xyz \+ \&quot;\.\&quot;\)\;\n    \}\n        else if \(answerChoice\.equalsIgnoreCase\(\&quot;o\&quot;\)\)\{\n            System\.out\.println\(answer \+ \&quot; has picked \&quot; \+ answerChoice \+\n                    \&quot;\! The computer will be even\.\&quot;\)\;\n        \}\n\n    \}\n\n\n    \}\n\}\n</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edx.java" />
+        <option value="$PROJECT_DIR$/src/OddsAndEvens.java" />
       </list>
     </option>
   </component>
@@ -90,6 +109,11 @@
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -98,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533526809541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534383280071" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +136,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OddsAndEvens">
+    <configuration name="OddsAndEvens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddsAndEvens" />
+      <module name="Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="edx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edx" />
       <module name="Demo" />
@@ -120,8 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.edx" />
+      <item itemvalue="Application.OddsAndEvens" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddsAndEvens" />
         <item itemvalue="Application.edx" />
       </list>
     </recent_temporary>
@@ -143,7 +179,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50143063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.50143063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -152,7 +188,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26987952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26987952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -177,8 +213,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/edx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="166">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OddsAndEvens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
         </state>
       </provider>
     </entry>
